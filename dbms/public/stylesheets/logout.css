@@ -1,0 +1,86 @@
+header {
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 3px 20px 0 gray;
+}
+
+body {
+    background-color: white;
+}
+
+.train {
+    height: 50%;
+    width: 70%;
+}
+
+.logout {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    right: 2%;
+    top: 2.2%;
+    border: none;
+    color: white;
+    background-color: #005690;
+    position: fixed;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.train-pic {
+    margin-left: 10px;
+    width: 10%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    text-align: center;
+    padding: 1%;
+    box-shadow: 0 0 30px 3px gray;
+}
+
+a {
+    margin-left: 10px;
+    padding: 1px;
+    font-size: 40px;
+    color: #005690;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #042b46;
+    text-decoration: none;
+}
+
+#pic {
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+}
+
+.picture {
+    margin-top: 8.5%;
+    width: 100%;
+    background-color: red;
+    height: 50vh;
+}
+
+.card {
+    margin-top: 1%;
+    box-shadow: 0 0 20px 2px gray;
+    border-radius: 5px;
+    text-align: center;
+    padding: 2%;
+}
+
+.card:hover {
+    transition: 1s;
+    color: grey;
+}

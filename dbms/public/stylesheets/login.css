@@ -1,0 +1,312 @@
+header {
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 3px 20px 0 gray;
+}
+
+body {
+    background-color: white;
+}
+
+.train {
+    height: 50%;
+    width: 70%;
+}
+
+#login {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    right: 2%;
+    top: 2.2%;
+    border: none;
+    color: white;
+    background-color: #005690;
+    position: fixed;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.train-pic {
+    margin-left: 10px;
+    width: 10%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    text-align: center;
+    padding: 1%;
+    box-shadow: 0 0 30px 3px gray;
+}
+
+a {
+    margin-left: 10px;
+    padding: 1px;
+    font-size: 40px;
+    color: #005690;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #042b46;
+    text-decoration: none;
+}
+
+#pic {
+    height: 100%;
+    width: 100%;
+}
+
+.picture {
+    margin-top: 8.5%;
+    width: 100%;
+    height: 70vh;
+}
+
+#card {
+    margin-top: 1%;
+    box-shadow: 0 0 20px 2px gray;
+    border-radius: 5px;
+    text-align: center;
+    padding: 2%;
+    margin-bottom: 10%;
+}
+
+
+#card:hover {
+
+    transition: 1s;
+    color: grey;
+    cursor: pointer;
+}
+
+#popup {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    bottom: 50%;
+    z-index: 999;
+    height: 70vh;
+    width: 40vw;
+    border-radius: 5px;
+    background-color:white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 3);
+}
+
+h2 {
+    text-align: center;
+    color: #005690;
+}
+#user_name,
+#password,
+#con-pass,
+#name,
+#email,
+#mobile,
+#address,
+#to,
+#from,
+#date,
+#user_name,
+#pass,
+#pnr_status {
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-left: 10%;
+    border-radius: 5px;
+    width: 80%;
+    padding: 2%;
+}
+
+#user_name:hover,
+#password:hover,
+#con-pass:hover,
+#name:hover,
+#email:hover,
+#mobile:hover,
+#address:hover,
+#to:hover,
+#from:hover,
+#date:hover,
+#user_name:hover,
+#pass:hover,
+#pnr_status:hover {
+   background-color: rgb(218, 218, 218);
+}
+.gen {
+    padding-bottom: 3%;
+}
+
+label {
+    margin-left: 10%;
+    text-align: left;
+    padding-bottom: 5%;
+}
+
+.sub-btn {
+    margin-top: 1%;
+    margin-left: 35%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-bottom: 10%;
+    background-color: #005690;
+    border: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#Close-btn {
+    margin-left: 85%;
+    color: #005690;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+form {
+    float: inherit;
+    border-radius: 4px;
+    margin: 1%;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5%;
+    text-align: left;
+}
+
+#popup-train {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    bottom: 50%;
+    z-index: 999;
+    height: 70vh;
+    width: 40vw;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 3);
+    background-color: white;
+}
+
+select {
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    width: 80%;
+    padding: 2%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+
+.svg {
+    margin-left: 20%;
+    width: 50%;
+}
+
+.svg-tic {
+    margin-left: 23%;
+    width: 50%;
+}
+
+#pnr {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    bottom: 50%;
+    z-index: 999;
+    height: 37vh;
+    width: 30vw;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 3);
+    background-color: white;
+}
+
+h1 {
+    position: fixed;
+    top: -10px;
+    left: 10%;
+    right: 0;
+    color: #005690;
+}
+
+table {
+    margin-top: 1%;
+}
+.signup {
+    border: none;
+    color: #005690;
+    font-size: 3vh;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.signup:hover{
+    color: #042b46;
+}
+
+#sign {
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    z-index: 999;
+    height: 65vh;
+    width: 50vw;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 3);
+}
+
+.or{
+    margin-top: -6%;
+}
+.sig{
+    margin-left: 30%;
+}
+
+.sub-btn-search {
+    margin-top: 2%;
+    margin-left: 35%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-bottom: 5%;
+    background-color: #005690;
+    border: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.sub-btn-pnr {
+    margin-top: 2%;
+    margin-left: 35%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-bottom: 5%;
+    background-color: #005690;
+    border: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.sub-btn-sign {
+    margin-top: 2%;
+    margin-left: 35%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-bottom: 5%;
+    background-color: #005690;
+    border: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}

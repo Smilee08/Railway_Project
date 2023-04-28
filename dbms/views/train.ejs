@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+
+<head>
+    <title>Railway</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML,CSS,JS,mysql"> <!-- keywords for search engine -->
+    <meta name="description" content="DBMS"> <!-- description of web page -->
+    <meta name="author" content="Smilee Lopes, Smita Dike, Floyd Fernandes"> <!-- author of a page -->
+    <link rel='stylesheet' href='/stylesheets/train.css' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="/images/train.svg"> <!-- icon -->
+    <script>
+        
+        function openBookSearch() {
+            console.log('passenger');
+            window.location.href = '/Passenger';
+        }
+    </script>
+</head>
+
+<body>
+    <header class="nav">
+        <nav>
+            <div class="train-pic">
+                <img class="train" src="/images/train.svg" alt="train" />
+                <h1 style="font-size: 5vh;">RailSafari</h1>
+            </div>
+            <div>
+                <button class="logout" onClick="">Logout</button>
+            </div>
+        </nav>
+    </header>
+    <div class="body">
+        <div class="cardview_area">
+            <div class="card 1">
+                <h2>MAJN CSMT EXP (12134)</h2>
+
+                <div class="tab" style="overflow-x: auto;">
+                    <div>
+                        <table style="width:100%;">
+                            <tr>
+                                <th>From</th>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <th>To</th>
+                            </tr>
+                            <tr>
+                                <td>Goa</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>Mumbai</td>
+                            </tr>
+                            <tr>
+                                <td>10am </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <p class="run"><strong>Runs On</strong></p>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>12pm</td>
+                            </tr>
+
+                            <tc>
+                                <td>Sun,26 april</td>
+                                <td class="c">M</td>
+                                <td class="c">T</td>
+                                <td class="c">W</td>
+                                <td class="c">T</td>
+                                <td class="c">F</td>
+                                <td class="c">S</td>
+                                <td class="c">S</td>
+                                <td>sun,26 april</td>
+                            </tc>
+                        </table>
+
+                    </div>
+                </div>
+                
+                <table style="width:100%; margin-top: 3%;">
+                    <tc>
+                        <td class="click">
+                            <p><strong>Sleeper (SL)</strong></p>
+                            <p style="text-align: center;"> 50 seats available</p>
+                        </td>
+                        <td class="click">
+                            <p><strong>AC First Class (1A)</strong></p>
+                            <p style="text-align: center;"> 50 seats available</p>
+                        </td>
+                        <td class="click">
+                            <p><strong>AC 2 Tier(2A)</strong></p>
+                            <p style="text-align: center;"> 50 seats available</p>
+                        </td>
+                        <td class="click">
+                            <p><strong>second Sitting(2S)</strong></p>
+                            <p style="text-align: center;"> 50 seats available</p>
+                        </td>
+                        <td class="click">
+                            <p><strong>First Class (FC)</strong></p>
+                            <p style="text-align: center;"> 50 seats available</p>
+                        </td>
+                        <td class="click">
+                            <p><strong>second Sitting(2S)</strong></p>
+                            <p style="text-align: center;"> 50 seats available</p>
+                        </td>
+                    </tc>
+                </table>
+                <div class="btn">
+                    <button class="book" type="submit" style=" margin-top: 2%;" onclick="openBookSearch()">Book Now</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <footer>
+        <a href="https://instagram.com" class="fa fa-instagram"></a>
+        <a href="https://m.facebook.com" class="fa fa-facebook"></a>
+        <a href="https://twitter.com" class="fa fa-twitter"></a>
+        <a href="mailto:mca.2268@unigoa.ac.in" class="fa fa-envelope"></a>
+    </footer>
+</body>
+
+</html>
