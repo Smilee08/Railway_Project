@@ -7,12 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="HTML,CSS,JS,mysql"> <!-- keywords for search engine -->
     <meta name="description" content="DBMS"> <!-- description of web page -->
-    <meta name="author" content="Smilee Lopes, Smita Dike, Floyd Fernandes"> <!-- author of a page -->
-    <link rel='stylesheet' href='/stylesheets/pnr_status.css' />
+    <meta name="author" content="Smilee Lopes, Smita Dike, Floyd Fernandes,sheetal Raghmode"> <!-- author of a page -->
+    <link rel='stylesheet' href='/stylesheets/ticket.css' />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" type="image/x-icon" href="/images/train.svg"> <!-- icon -->
     <script>
-
+        function openLogin() {
+                console.log('Login');
+                window.location.href = '/';
+            }
+        function openLogin() {
+                console.log('Logout');
+                window.location.href = '/logout';
+        }
     </script>
 
 </head>
@@ -21,11 +28,11 @@
     <header class="nav">
         <nav>
             <div class="train-pic">
-                <img class="train" src="/images/train.svg" alt="train" />
+                <img class="train" src="/images/train.svg" alt="train" onclick="openLogin()" />
             </div>
             <h1 style="font-size: 5vh;">RailSafari</h1>
             <div>
-                <button class="logout" onClick="">Logout</button>
+                <button class="logout" type="submit" onClick="openLogin()">Logout</button>
             </div>
         </nav>
     </header>
@@ -113,6 +120,9 @@
                             </tc>
                         </table>
                     </div>
+                </div>
+                <div>
+                    <button class="print" type="submit" onclick="window.print()">Print</button>
                 </div>
             </div>
 

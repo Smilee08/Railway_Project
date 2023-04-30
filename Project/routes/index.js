@@ -13,10 +13,6 @@ router.get('/PNRstatus', function(req, res, next) {
   res.render('PNRstatus');
 });
 
-router.get('/login', function(req, res, next) {
-  res.render('login');
-});
-
 router.get('/logout', function(req, res, next) {
   res.render('logout');
 });;
@@ -31,9 +27,9 @@ router.get('/ticket', function(req, res, next) {
   res.render('ticket');
 });
 
-router.post('/login', function(request, response, next){
+router.post('/', function(request, response, next){
 
-    response.redirect('/login');
+    response.redirect('/');
 
     var user_email_address = request.body.user_name;
 

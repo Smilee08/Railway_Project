@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="HTML,CSS,JS,mysql"> <!-- keywords for search engine -->
     <meta name="description" content="DBMS"> <!-- description of web page -->
-    <meta name="author" content="Smilee Lopes, Smita Dike, Floyd Fernandes"> <!-- author of a page -->
+    <meta name="author" content="Smilee Lopes, Smita Dike, Floyd Fernandes,sheetal Raghmode"> <!-- author of a page -->
     <link rel='stylesheet' href='/stylesheets/Passanger.css' />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel=”stylesheet” href=”//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css”>
@@ -19,11 +19,15 @@
             window.location.href = '/ticket';
         }
         function showPopup() {
-                document.getElementById("popup").style.display = "block";
-            }
-            function hidePopup() {
-                document.getElementById("popup").style.display = "none";
-            }
+            document.getElementById("popup").style.display = "block";
+        }
+        function hidePopup() {
+            document.getElementById("popup").style.display = "none";
+        }
+        function openLogin() {
+            console.log('Login');
+            window.location.href = '/';
+        }
     </script>
 
 </head>
@@ -32,11 +36,11 @@
     <header class="nav">
         <nav>
             <div class="train-pic">
-                <img class="train" src="/images/train.svg" alt="train" />
+                <img class="train" src="/images/train.svg" alt="train" onClick="openLogin()" />
             </div>
             <h1 style="font-size: 5vh;">RailSafari</h1>
             <div>
-                <button class="logout" onClick="">Logout</button>
+                <button class="logout" type="submit" onClick="openLogin()">Logout</button>
             </div>
         </nav>
     </header>
@@ -73,16 +77,18 @@
                     <button class="payment" onClick="showPopup()">Pay Now (Debit/Credit card)</button>
                 </div>
                 <div>
-                    
+
                     <div id="popup" style="display: none;  overflow: scroll;">
                         <div id="pay_popup">
                             <form action="">
-                                <span id="Close-btn" class='fa-solid fa-xmark' onclick="hidePopup()"  type='submit'>&times;</span>
+                                <span id="Close-btn" class='fa-solid fa-xmark' onclick="hidePopup()"
+                                    type='submit'>&times;</span>
                                 <h2>Credit/Debit Card</h2>
-                
+
                                 <div>
                                     <label for="card_no">Card No.</label><br />
-                                    <input type="text" id="card_no" placeholder="Enter Card No." name="Card No." max="16" />
+                                    <input type="text" id="card_no" placeholder="Enter Card No." name="Card No."
+                                        max="16" />
                                 </div>
                                 <div>
                                     <label for='card_holder_name'>Card Holder Name</label><br />
@@ -91,10 +97,11 @@
                                 </div>
                                 <div>
                                     <label for='expire_date'>Expire Date</label><br />
-                                    <input type="text" id="expire_date" placeholder="Enter Expire Date" name="Expire Date" required />
+                                    <input type="text" id="expire_date" placeholder="Enter Expire Date"
+                                        name="Expire Date" required />
                                 </div>
                                 <div>
-                                    <label for='csv'>CSV</label><br />
+                                    <label for='csv'>CVV</label><br />
                                     <input type="text" id="csv" placeholder="Enter CSV" name="csv" />
                                 </div>
                                 <div class='center'>
